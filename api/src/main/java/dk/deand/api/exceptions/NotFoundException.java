@@ -1,7 +1,8 @@
 package dk.deand.api.exceptions;
 
 public class NotFoundException extends RuntimeException {
-  public NotFoundException() {}
+  public NotFoundException() {
+  }
 
   public NotFoundException(String message) {
     super(message);
